@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Types</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="base">
+        <section class="base__form">
+            <h1 class="base__title">Gerador de Types </h1>
+            <p class="base__description">Coloque o link de uma API ou o seu retorno para gerar os types para typescript</p>
+            <input type="text" class="base__input" placeholder="Digite o nome do Type" />
+            <input type="text" class="base__input-fetch" placeholder="Digite a URL" />
+            <textarea class="base__textarea" placeholder="Coloque a Reposta do JSON"></textarea>
+            <button type="button" class="base__button">Criar</button>
+        </section>
+        <section class="base__response">
+            <h1 class="base__title"> Resposta</h1>
+            <p class="base__description">Os tipos serão gerados abaixo, cuidado com o formato do JSON</p>
+            <textarea class="base__response-textarea">
+
+            </textarea>
+            <button type="button" class="base__response-copy">Copiar</button>
+        </section>
+    </main>
+    <script src="./index.js" type="module"></script>
+    <script src="./web.js" type="module"></script>
+</body>
+</html>
